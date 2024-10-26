@@ -10,7 +10,6 @@ This project implements a Course Recommendation System using datasets from Udemy
 - [Features](#features)
 - [Visualizations](#visualizations)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -34,21 +33,24 @@ To run this project, you need to have Python installed on your machine. Addition
 
 ```bash
 pip install pandas numpy matplotlib seaborn nltk scikit-learn streamlit fuzzywuzzy
+```
 
 
-
-Usage
+## Usage
 
 1. Clone repository
-
+```bash
 git clone https://github.com/your_username/Course-Recommendation.git
 cd Course-Recommendation
 
+```
 
 2. Run the Streamlit application
 
+```bash
 streamlit run app.py
 
+```
 3. Open your web browser and go to http://localhost:8501 to use the Course Recommendation System.
 
 
@@ -81,6 +83,6 @@ The project includes several visualizations that display insights into the datas
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details
+This project is licensed under the MIT License.
 
 
